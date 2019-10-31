@@ -68,7 +68,6 @@ h1, h2, h3, h4, h5 {
 	margin:0;
 	padding:0;
 	max-width:100%;
-	border: 2px solid red !important;
 }
 
 /* Nav */
@@ -161,6 +160,7 @@ hr{
 footer{
 	display:flex;
 	justify-content:center;
+	margin:5%;
 }
 
 /* THIS STARTS SERVICES CSS*/
@@ -169,17 +169,57 @@ footer{
 .top-image{
 	display:flex;
 	justify-content:center;
+	margin:2%;
 }
 
 .svc{
 	display:flex;
 	flex-direction:column;
 	align-content: flex-start;
+	margin:2%;
 }
 
 .svc h1{
 	font-size:30px;
 }
 /* Boxes*/
+.service-content{
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+}
+
+.box{
+	width: 43%;
+	background-color: rgb(233, 231, 231);
+	margin:2%;
+	border: 1px solid black;
+	
+}
+
+.box p, .box h2, .box button{
+	margin:4%;
+}
+
+.button{
+	border-radius: 10%;
+	width: 25%;
+	border: 1px solid black;
+	padding: 1%;
+}
 /* Cool stuff*/
-/* Copyright*/
+.facts{
+	display:flex;
+	justify-content:space-around;
+}
+
+.facts .facts-left{
+	width: 45%;
+	margin:2%
+}
+.facts .facts-left ul{
+	list-style-type: square;
+	line-height:2;
+	font-weight: bold;
+}
