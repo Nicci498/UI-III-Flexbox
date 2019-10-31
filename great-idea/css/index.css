@@ -64,3 +64,30 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+*{
+	margin:0;
+	padding:0;
+	max-width:100%;
+	border: 2px solid red !important;
+}
+/* Nav */
+
+header nav{
+	display:flex;
+	justify-content:space-between;
+}
+
+header nav a{
+	text-decoration: none;
+	margin:0 40px;
+	color:grey;
+}
+/* Main */
+
+button{
+	background: white;
+	border:1px solid black;
+	padding: 3px 25px;
+}
+
+
