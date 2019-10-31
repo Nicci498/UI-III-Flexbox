@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 	margin:0;
 	padding:0;
 	max-width:100%;
-	border: 2px solid red !important;
+	/*border: 2px solid red !important;*/
 }
 /* Nav */
 
@@ -84,10 +84,36 @@ header nav a{
 }
 /* Main */
 
+header h1{
+	font-size:80px;
+	text-align:center;
+}
+
+.main-heading{
+	display:flex;
+	justify-content:center;
+	margin: 2%;
+}
+
+.left-header{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+}
+
 button{
 	background: white;
 	border:1px solid black;
-	padding: 3px 25px;
+	padding: 3px 5px;
 }
 
+hr{
+	width:97%;
+	margin:2%;
+}
 
+/* In half */
+
+
+
+/* In thirds */
