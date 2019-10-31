@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5 {
 	margin:0;
 	padding:0;
 	max-width:100%;
+	border: 2px solid red !important;
 }
 
 /* Nav */
@@ -80,7 +81,8 @@ header nav{
 header nav a{
 	text-decoration: none;
 	margin:0 40px;
-	color:grey;
+	color:rgba(194, 193, 193, 0.822);
+	font-weight:bold;
 }
 
 /* Main */
@@ -162,3 +164,22 @@ footer{
 }
 
 /* THIS STARTS SERVICES CSS*/
+
+/* Services*/
+.top-image{
+	display:flex;
+	justify-content:center;
+}
+
+.svc{
+	display:flex;
+	flex-direction:column;
+	align-content: flex-start;
+}
+
+.svc h1{
+	font-size:30px;
+}
+/* Boxes*/
+/* Cool stuff*/
+/* Copyright*/
