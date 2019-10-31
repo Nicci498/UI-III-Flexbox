@@ -68,8 +68,8 @@ h1, h2, h3, h4, h5 {
 	margin:0;
 	padding:0;
 	max-width:100%;
-	/*border: 2px solid red !important;*/
 }
+
 /* Nav */
 
 header nav{
@@ -82,6 +82,7 @@ header nav a{
 	margin:0 40px;
 	color:grey;
 }
+
 /* Main */
 
 header h1{
@@ -113,7 +114,51 @@ hr{
 }
 
 /* In half */
-
-
-
+.in-half{
+	display:flex;
+	justify-content: space-around;
+}
+ 
+.in-half .first-half, .in-half .second-half{
+	width: 45%;
+	margin:2%;
+}
 /* In thirds */
+
+.in-thirds{
+	display:flex;
+	justify-content:space-around;
+}
+
+.in-thirds .left-third, .in-thirds .middle-third, .in-thirds .right-third{
+	width: 31%;
+	margin:2%;
+}
+
+/* Center pic */
+.middle-pic-div{
+	display:flex;
+	justify-content:center;
+}
+
+/* Contact*/
+.contact{
+	margin-left: 1%;
+}
+
+.contact h2{
+	margin-top: 1%;
+	font-size:20px;
+}
+
+.contact address{
+	line-height: 2;
+}
+
+/* Copyright*/
+footer{
+	display:flex;
+	justify-content:center;
+}
+
+/* THIS STARTS SERVICES CSS*/
