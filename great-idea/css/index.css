@@ -64,3 +64,165 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+*{
+	margin:0;
+	padding:0;
+	max-width:100%;
+}
+
+/* Nav */
+
+header nav{
+	display:flex;
+	justify-content:space-between;
+}
+
+header nav a{
+	text-decoration: none;
+	margin:0 40px;
+	color:rgba(194, 193, 193, 0.822);
+	font-weight:bold;
+}
+
+/* Main */
+
+header h1{
+	font-size:80px;
+	text-align:center;
+}
+
+.main-heading{
+	display:flex;
+	justify-content:center;
+	margin: 2%;
+}
+
+.left-header{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+}
+
+button{
+	background: white;
+	border:1px solid black;
+	padding:3%;
+	width:50%;
+	margin-left:25%;
+	
+}
+
+hr{
+	width:97%;
+	margin:2%;
+}
+
+/* In half */
+.in-half{
+	display:flex;
+	justify-content: space-around;
+}
+ 
+.in-half .first-half, .in-half .second-half{
+	width: 45%;
+	margin:2%;
+}
+/* In thirds */
+
+.in-thirds{
+	display:flex;
+	justify-content:space-around;
+}
+
+.in-thirds .left-third, .in-thirds .middle-third, .in-thirds .right-third{
+	width: 31%;
+	margin:2%;
+}
+
+/* Center pic */
+.middle-pic-div{
+	display:flex;
+	justify-content:center;
+}
+
+/* Contact*/
+.contact{
+	margin-left: 1%;
+}
+
+.contact h2{
+	margin-top: 1%;
+	font-size:20px;
+}
+
+.contact address{
+	line-height: 2;
+}
+
+/* Copyright*/
+footer{
+	display:flex;
+	justify-content:center;
+	margin:5%;
+}
+
+/* THIS STARTS SERVICES CSS*/
+
+/* Services*/
+.top-image{
+	display:flex;
+	justify-content:center;
+	margin:2%;
+}
+
+.svc{
+	display:flex;
+	flex-direction:column;
+	align-content: flex-start;
+	margin:2%;
+}
+
+.svc h1{
+	font-size:30px;
+}
+/* Boxes*/
+.service-content{
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+}
+
+.box{
+	width: 43%;
+	background-color: rgb(233, 231, 231);
+	margin:2%;
+	border: 1px solid black;
+	
+}
+
+.box p, .box h2, .box button{
+	margin:4%;
+}
+
+.button{
+	border-radius: 10%;
+	width: 25%;
+	border: 1px solid black;
+	padding: 1%;
+}
+/* Cool stuff*/
+.facts{
+	display:flex;
+	justify-content:space-around;
+}
+
+.facts .facts-left{
+	width: 45%;
+	margin:2%
+}
+.facts .facts-left ul{
+	list-style-type: square;
+	line-height:2;
+	font-weight: bold;
+}
